@@ -50,17 +50,17 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(43, 189);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 32);
+            this.label1.Size = new System.Drawing.Size(197, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "First Name :";
             // 
             // txtPhone
             // 
             this.txtPhone.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhone.Location = new System.Drawing.Point(257, 341);
+            this.txtPhone.Location = new System.Drawing.Point(257, 332);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(150, 30);
+            this.txtPhone.Size = new System.Drawing.Size(150, 36);
             this.txtPhone.TabIndex = 1;
             this.txtPhone.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -68,13 +68,13 @@
             // 
             this.listContacts.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listContacts.FormattingEnabled = true;
-            this.listContacts.ItemHeight = 23;
+            this.listContacts.ItemHeight = 28;
             this.listContacts.Items.AddRange(new object[] {
             "My Contacts:"});
             this.listContacts.Location = new System.Drawing.Point(478, 64);
             this.listContacts.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listContacts.Name = "listContacts";
-            this.listContacts.Size = new System.Drawing.Size(267, 418);
+            this.listContacts.Size = new System.Drawing.Size(267, 396);
             this.listContacts.TabIndex = 2;
             this.listContacts.SelectedIndexChanged += new System.EventHandler(this.listContacts_SelectedIndexChanged);
             // 
@@ -84,7 +84,7 @@
             this.txtlastName.Location = new System.Drawing.Point(257, 265);
             this.txtlastName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtlastName.Name = "txtlastName";
-            this.txtlastName.Size = new System.Drawing.Size(150, 30);
+            this.txtlastName.Size = new System.Drawing.Size(150, 36);
             this.txtlastName.TabIndex = 3;
             // 
             // txtfirstName
@@ -93,7 +93,7 @@
             this.txtfirstName.Location = new System.Drawing.Point(257, 193);
             this.txtfirstName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtfirstName.Name = "txtfirstName";
-            this.txtfirstName.Size = new System.Drawing.Size(150, 30);
+            this.txtfirstName.Size = new System.Drawing.Size(150, 36);
             this.txtfirstName.TabIndex = 4;
             // 
             // label2
@@ -104,7 +104,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(43, 256);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(162, 32);
+            this.label2.Size = new System.Drawing.Size(195, 39);
             this.label2.TabIndex = 5;
             this.label2.Text = "Last Name :";
             // 
@@ -112,11 +112,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(43, 332);
+            this.label3.Location = new System.Drawing.Point(45, 337);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 32);
+            this.label3.Size = new System.Drawing.Size(189, 27);
             this.label3.TabIndex = 6;
             this.label3.Text = "Phone Number :";
             // 
@@ -149,13 +149,13 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(158, 64);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(249, 45);
+            this.label4.Size = new System.Drawing.Size(317, 57);
             this.label4.TabIndex = 9;
             this.label4.Text = "My Contacts:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
